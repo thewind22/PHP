@@ -1,0 +1,72 @@
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 100%);
+}
+
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #313b33;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Thiết lập font chữ mặc định */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.ds-nv {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.ds-nv th, .ds-nv td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.ds-nv th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.ds-nv tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.ds-nv tr:hover {
+    background-color: #f2f2f2;
+}
+
+
